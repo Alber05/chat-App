@@ -22,8 +22,7 @@ export const registerUser = async (req, res) => {
       user: {
         id: newUser._id,
         username: newUser.username,
-        email: newUser.email,
-        token: token
+        email: newUser.email
       }
     })
   } catch (error) {
